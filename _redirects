@@ -1,0 +1,3 @@
+# Cloudflare Pages redirects
+# Uncomment and replace yourdomain.com if you want to force the www version.
+# https://yourdomain.com/* https://www.yourdomain.com/:splat 301
