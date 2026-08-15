@@ -1021,3 +1021,11 @@ blockquote {
     grid-template-columns: 1fr !important;
   }
 }
+/* Contact section - single column */
+.contact-section .contact-grid {
+  grid-template-columns: 1fr;
+}
+
+.contact-section .contact-copy {
+  max-width: 780px;
+}
