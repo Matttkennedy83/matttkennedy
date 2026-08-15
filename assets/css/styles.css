@@ -979,3 +979,45 @@ blockquote {
     grid-template-columns: 1fr;
   }
 }
+/* =========================================
+   CUSTOM CARD LAYOUTS
+   ========================================= */
+
+/* Current Ventures - 2 columns */
+.service-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 24px;
+  align-items: stretch;
+}
+
+/* Areas of Focus - 3 columns */
+.focus-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 24px;
+  align-items: stretch;
+}
+
+/* Make cards equal height */
+.service-grid .service-card,
+.focus-grid .service-card {
+  height: 100%;
+  width: 100%;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .service-grid,
+  .focus-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 650px) {
+  .service-grid,
+  .focus-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
