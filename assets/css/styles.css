@@ -956,13 +956,7 @@ blockquote {
     bottom: 16px;
   }
 }
-/* Areas of Focus - three column layout */
-.focus-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  align-items: stretch;
-}
+
 
 .focus-grid .service-card {
   height: 100%;
